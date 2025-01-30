@@ -3,17 +3,17 @@ layout: page
 title: MindBlogging
 ---
 
-<p class="message">
+<h2>
   Math stuff
-</p>
+</h2>
 
 1. An article on classical groups.
 2. Representation Theory and Physics: What do we see?
 3. A list of ideas and open problems in commutative algebra and number theory. (compiled by me)
 
-<p class="message">
+<h2>
    Music
-</p>
+</h2>
 
 1. My piano videos!
 
