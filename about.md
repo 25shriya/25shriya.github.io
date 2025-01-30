@@ -1,15 +1,19 @@
 ---
 layout: page
-title: Shriya Meenakshisundaram
+title: MindBlogging
 ---
 
 <p class="message">
-  Welcome to my homepage!
+  Math stuff
 </p>
 
-I am a mathematician with training in algebra, geometry and number theory. Additionally, I have experience in studying combinatorial geometries
-in algebraic geometry and optimization. I have keen interests in formalization of math, Python and SageMath programming! 
+1. An article on classical groups.
+2. Representation Theory and Physics: What do we see?
+3. A list of ideas and open problems in commutative algebra and number theory. (compiled by me)
 
-I'm an avid musician by the side and I enjoy recording stuff on my piano from time to time!
+<p class="message">
+   Music
+</p>
 
-Thanks for reading!
+1. My piano videos!
+
