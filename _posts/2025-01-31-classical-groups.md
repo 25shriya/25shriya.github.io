@@ -3,7 +3,7 @@ layout: post
 title:  "Introduction to Classical Groups"
 ---
 
-{% include mathjax.html %}
+{%- include mathjax.html -%}
 
 This article introduces some classical matrix groups and proves Suslin's normality theorem, which relates a normal subgroup of the Elementary Linear Group to the familiar General Linear Group, both defined over an arbitrary commutative ring $R$.
 
