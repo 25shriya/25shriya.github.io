@@ -1,0 +1,12 @@
+<div class="youtube" style="max-width:560px;">
+  <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/{{ include.id }}" 
+    frameborder="0" 
+    allowfullscreen>
+  </iframe>
+  <a href="https://www.youtube.com/watch?v={{ include.id }}" target="_blank">
+  <img src="https://img.youtube.com/vi/{{ include.id }}/hqdefault.jpg"
+       alt="YouTube video thumbnail"
+       style="width:100%;max-width:560px;">
+  </a>
+</div>
