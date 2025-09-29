@@ -11,7 +11,7 @@ title: Health and Disability
   {% for post in site.posts/diabetes %}
     {% if post.path contains '_posts/diabetes/' %}
       <li>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a href="{{ post.url}}">{{ post.title }}</a>
       </li>
     {% endif %}
   {% endfor %}
