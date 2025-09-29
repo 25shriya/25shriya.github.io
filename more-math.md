@@ -4,7 +4,7 @@ title: More Math!
 ---
 
 <ul>
-  {% for post in site.posts/math %}
+  {% for post in site.posts %}
     {% if post.path contains '_posts/math/' %}
       <li>
         <a href="{{ post.url}}">{{ post.title }}</a>

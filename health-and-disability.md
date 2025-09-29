@@ -8,7 +8,7 @@ title: Health and Disability
 </p>
 
 <ul>
-  {% for post in site.posts/diabetes %}
+  {% for post in site.posts %}
     {% if post.path contains '_posts/diabetes/' %}
       <li>
         <a href="{{ post.url}}">{{ post.title }}</a>
