@@ -1,5 +1,10 @@
+<div class="youtube-thumb" style="max-width:300px; text-align:center; margin:1em auto;">
   <a href="https://www.youtube.com/watch?v={{ include.id }}" target="_blank">
-  <img src="https://img.youtube.com/vi/{{ include.id }}/hqdefault.jpg"
-       alt="YouTube video thumbnail"
-       style="width:100%;max-width:560px;">
+    <img src="https://img.youtube.com/vi/{{ include.id }}/hqdefault.jpg"
+         alt="{{ include.title }}"
+         style="width:100%; height:auto; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);">
   </a>
+  <div class="youtube-title" style="font-size:0.9em; margin-top:0.5em; color:#333;">
+    {{ include.title }}
+  </div>
+</div>
