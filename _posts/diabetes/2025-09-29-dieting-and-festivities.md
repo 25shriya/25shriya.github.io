@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Diabetes, Dieting and Societal Expectations"
+title:  "Diabetes, Dieting and Indian Festivities"
 ---
 
 Ever since I was diagnosed, dieting has always been a question for which I continuously strive to find an answer. "What should I eat?", "Should I cut down carbs altogether?", or perhaps most importantly, "Is there something specific I must eat to *undo* my diabetes?" (the answer obviously being no to this one!) are some boggling questions that buzzed in my mind initially.
@@ -11,7 +11,7 @@ I overcame the initial layer of skepticism by understanding that *there's absolu
 
 ------------
 
-The greatest challenge in dealing with dieting and diabetes is in keeping up with societal expectations. Coming from an Indian (specifically, Tamil Brahmin) household, the array of festivals throughout July and August comes along with an enticing variety of carb-heavy foods. Most occasions demand the preparation of foods such as *vada* (deep fried lentil and rice donuts), *chakkara pongal* (boiled rice with jaggery syrup), *payasam* (rice/semolina milk pudding with sugar) and so on. An added disadvantage is the common *elai sapadu* which consists of a feast of dishes served on a plantain leaf. This feast often came along with a massive sugar spike from each item, along with the carb-heavy items served first which act contradictory to my interests.
+The greatest challenge in dealing with dieting and diabetes is in keeping up with societal expectations. Coming from an Indian (specifically, Tamil Brahmin) household, the array of festivals throughout July and August comes along with an enticing variety of carb-heavy foods. Most occasions demand the preparation of foods such as *vada* (deep fried lentil and rice donuts), *chakkara pongal* (boiled rice with jaggery syrup), *payasam* (rice/semolina milk pudding with sugar) and so on. An added disadvantage is the common *elai sapadu* which consists of a feast of dishes served on a plantain leaf. This feast often comes along with a massive sugar spike from each item, along with the carb-heavy items served first which act contradictory to my interests.
 
 I deal with my sugars during such times by incorporating the following practices:
 1. I begin my day with *exercise*. (My exercise regime will be described in another article) This boosts insulin sensitivity for the whole day and I'm geared up for all kinds of high sugar challenges.
