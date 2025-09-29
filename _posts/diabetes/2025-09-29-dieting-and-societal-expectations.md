@@ -1,4 +1,8 @@
-# Diabetes, Dieting and Societal Expectations
+---
+layout: post
+title:  "Diabetes, Dieting and Societal Expectations"
+---
+
 Ever since I was diagnosed, dieting has always been a question for which I continuously strive to find an answer. "What should I eat?", "Should I cut down carbs altogether?", or perhaps most importantly, "Is there something specific I must eat to *undo* my diabetes?" (the answer obviously being no to this one!) are some boggling questions that buzzed in my mind initially.
 
 ------------
