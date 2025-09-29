@@ -556,3 +556,33 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+/* --- YouTube grid custom styles --- */
+.youtube-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.youtube-thumb {
+  max-width: 220px;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.youtube-thumb img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+
+.youtube-thumb img:hover {
+  transform: scale(1.05);
+}
+
+.youtube-title {
+  margin-top: 0.4em;
+  color: #333;
+}
+

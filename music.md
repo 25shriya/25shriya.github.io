@@ -8,7 +8,10 @@ title: Music
     <br><br>
     DISCLAIMER: I claim NO OWNERSHIP of the composition and arrangement of the covers.
     <br><br>
-    {% include youtube_thumb.html id="FAReZbU4otE" title="The Office (Theme)"%}
+    <div class="youtube-grid">
+        {% include youtube_thumb.html id="FAReZbU4otE" title="The Office (Theme)"%}
+    </div>
+    
 
 
 
