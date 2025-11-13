@@ -22,24 +22,30 @@ $$
 
 For $(i,j) \in \mathcal{Y}(\lambda)$, we get 
 $$
+
 \mathfrak{h}_{ij}(\lambda)
 = 
-\left{
+\left\{
 (i', j') \in \mathcal{Y}(\lambda)
 \;\middle|\;
 \begin{array}{l}
 i = i' \text{ and } j' \ge j, \text{ or}\\[4pt]
 j = j' \text{ and } i' > i
 \end{array}
-\right},$$
-the \textit{(i,j)-hook} in $\lambda$. The following diagram shows the (1,2)-hook of (5,3,2,1): 
- $$
+\right\},
+
+$$
+
+the $\textit{(i,j)-hook}$ in $\lambda$. The following diagram shows the (1,2)-hook of (5,3,2,1): 
+$$
+
 \begin{array}{lllll}
 \blacksquare & \times & \times & \times & \times \\
 \blacksquare & \times & \blacksquare \\
 \blacksquare & \times \\
 \blacksquare
 \end{array}.
+
 $$
 
 The $\textit{(i,j)}$-hooklength of $\lambda$, is $h_{ij}(\lambda) = |\mathfrak{h}_{ij}(\lambda)|$. The $(1,2)$-hooklength of $(5,3,2,1)$ is $6$. A $\textit{p-hook}$ is a hook of a partition with hooklength divisible by the natural number $\textit{p}$.
@@ -53,7 +59,7 @@ A $\beta$-set $X = \{h_1, \ldots h_t\}$ is a finite increasing subset of whole n
   <figcaption>Figure 1: Relationship between a partition and its $\beta$-set.</figcaption>
 </figure>
 
-Now, for a $\beta$-set $X$ for a partition $\lambda$, fix a positive integer \textit{p} and define $X_i^{(p)} = \{a \in \mathbb{N}_0 \, | \, ap + i \in X\}$ and $X_{(p)} = \bigcup_{i=0}^{p-1} \{ap+i \, | \, 0 \leq a \leq |X_i^{(p)}|\}$. The $\textit{p-core}$ of $\lambda$ is $\lambda_{(p)} = P(X_{(p)})$ and $\textit{p-quotient}$ is $\lambda^{(p)} = (\lambda_0, \ldots, \lambda_{p-1})$, where $\lambda_i = P(X_i^{(p)})$.
+Now, for a $\beta$-set $X$ for a partition $\lambda$, fix a positive integer $p$ and define $X_i^{(p)} = \{a \in \mathbb{N}_0 \, | \, ap + i \in X\}$ and $X_{(p)} = \bigcup_{i=0}^{p-1} \{ap+i \, | \, 0 \leq a \leq |X_i^{(p)}|\}$. The $\textit{p-core}$ of $\lambda$ is $\lambda_{(p)} = P(X_{(p)})$ and $\textit{p-quotient}$ is $\lambda^{(p)} = (\lambda_0, \ldots, \lambda_{p-1})$, where $\lambda_i = P(X_i^{(p)})$.
 
 Combinatorially speaking, we understand $p$-cores and $p$-quotients by:
 
