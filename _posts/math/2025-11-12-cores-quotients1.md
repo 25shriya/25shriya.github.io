@@ -1,3 +1,4 @@
+---
 layout: post
 title:  "Cores and Quotients of Integer Partitions - Part 1"
 ---
