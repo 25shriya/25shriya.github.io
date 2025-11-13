@@ -5,11 +5,11 @@ title: "Cores and Quotients of Integer Partitions - Part 1"
 
 {%- include mathjax.html -%}
 
-An \textit{integer partition} $\lambda = (a_1, a_2, \ldots, a_m)$ of $n$ is a nonincreasing finite sequence of integers such that $\sum_{i=1}^m a_i = n$. The number of partitions for each integer was studied by Srinivasa Ramanujam and is applied in various fields such as representation theory, theoretical physics, and statistics.
+An $\textit{integer partition}$ $\lambda = (a_1, a_2, \ldots, a_m)$ of $n$ is a nonincreasing finite sequence of integers such that $\sum_{i=1}^m a_i = n$. The number of partitions for each integer was studied by Srinivasa Ramanujam and is applied in various fields such as representation theory, theoretical physics, and statistics.
 
-Each element of a partition is called its \textit{part}, and following the above notation, we have $l(\lambda) = m$ and $|\lambda| = n$. Note that for a given positive integer $n$, the largest partition is $(1,1, \ldots 1)$, n times and smallest partition is $(n)$. Therefore, $1 \leq l(\lambda) \leq n$ for any partition $\lambda  $of $n$. 
+Each element of a partition is called its $\textit{part}$, and following the above notation, we have $l(\lambda) = m$ and $|\lambda| = n$. Note that for a given positive integer $n$, the largest partition is $(1,1, \ldots 1)$, $n$ times and smallest partition is $(n)$. Therefore, $1 \leq l(\lambda) \leq n$ for any partition $\lambda  $ of $n$. 
 
-For a partition $\lambda = (a_1, a_2, \ldots, a_m)$, define $\mathcal{Y}(\lambda) = \{(i,j) \in \mathbb{N} \times \mathbb{N} | 1 \leq i \leq m, \, 1 \leq j \leq a_i\}$, visualized by the \textit{Young diagram} or \textit{Ferrer's diagram}, as shown for example partition $(5,3,2,1)$.
+For a partition $\lambda = (a_1, a_2, \ldots, a_m)$, define $\mathcal{Y}(\lambda) = \{(i,j) \in \mathbb{N} \times \mathbb{N} | 1 \leq i \leq m, \, 1 \leq j \leq a_i\}$, visualized by the $\textit{Young diagram}$ or $\textit{Ferrer's diagram}$, as shown for example partition $(5,3,2,1)$.
 
  $$
 \begin{array}{lllll}
@@ -42,9 +42,9 @@ the \textit{(i,j)-hook} in $\lambda$. The following diagram shows the (1,2)-hook
 \end{array}.
 $$
 
-The \textit{(i,j)}-hooklength of $\lambda$, is $h_{ij}(\lambda) = |\mathfrak{h}_{ij}(\lambda)|$. The (1,2)-hooklength of (5,3,2,1) is 6. A \textit{p-hook} is a hook of a partition with hooklength divisible by the natural number \textit{p}.
+The $\textit{(i,j)}$-hooklength of $\lambda$, is $h_{ij}(\lambda) = |\mathfrak{h}_{ij}(\lambda)|$. The $(1,2)$-hooklength of $(5,3,2,1)$ is $6$. A $\textit{p-hook}$ is a hook of a partition with hooklength divisible by the natural number $\textit{p}$.
 
-We now define the \textit{p-core} and \textit{p-quotient} algebraically, after which we tie the combinatorial and algebraic interpretation of the two.
+We now define the $\textit{p-core}$ and $\textit{p-quotient}$ algebraically, after which we tie the combinatorial and algebraic interpretation of the two.
 
 A $\beta$-set $X = \{h_1, \ldots h_t\}$ is a finite increasing subset of whole numbers such that the last term can be zero. If $s \in \mathbb{N}_0 (= \mathbb{N} \cup \{0\})$, define transposing $X$ as $X^{+s} = \{h_1+s, \ldots h_t + s, s - 1, s- 2, \ldots 2, 1, 0\}$. The partition associated with $\beta$-set $X$ is $P(X) = (h_1 - (t-1), h_2 - (t-2) \ldots h_t)$. $X$ is a $\beta$-set for partition $\lambda$ if $\lambda=P(X)$. Given a partition $\lambda$, we get a $\beta$-set $X_\lambda$ for $\lambda$ by getting the first column hooklengths of $\lambda$. Hence, all sets $X_\lambda^{+s}$, where $s \in \mathbb{N}_0$ is a $\beta$-set for $\lambda$. The following image shows the relation between a partition and its $\beta$-sets.
 
@@ -53,7 +53,7 @@ A $\beta$-set $X = \{h_1, \ldots h_t\}$ is a finite increasing subset of whole n
   <figcaption>Figure 1: Relationship between a partition and its $\beta$-set.</figcaption>
 </figure>
 
-Now, for a $\beta$-set $X$ for a partition $\lambda$, fix a positive integer \textit{p} and define $X_i^{(p)} = \{a \in \mathbb{N}_0 \, | \, ap + i \in X\}$ and $X_{(p)} = \bigcup_{i=0}^{p-1} \{ap+i \, | \, 0 \leq a \leq |X_i^{(p)}|\}$. The \textit{p-core} of $\lambda$ is $\lambda_{(p)} = P(X_{(p)})$ and \textit{p-quotient} is $\lambda^{(p)} = (\lambda_0, \ldots, \lambda_{p-1})$, where $\lambda_i = P(X_i^{(p)})$.
+Now, for a $\beta$-set $X$ for a partition $\lambda$, fix a positive integer \textit{p} and define $X_i^{(p)} = \{a \in \mathbb{N}_0 \, | \, ap + i \in X\}$ and $X_{(p)} = \bigcup_{i=0}^{p-1} \{ap+i \, | \, 0 \leq a \leq |X_i^{(p)}|\}$. The $\textit{p-core}$ of $\lambda$ is $\lambda_{(p)} = P(X_{(p)})$ and $\textit{p-quotient}$ is $\lambda^{(p)} = (\lambda_0, \ldots, \lambda_{p-1})$, where $\lambda_i = P(X_i^{(p)})$.
 
 Combinatorially speaking, we understand $p$-cores and $p$-quotients by:
 
