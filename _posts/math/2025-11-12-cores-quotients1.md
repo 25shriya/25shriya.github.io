@@ -24,14 +24,14 @@ For $(i,j) \in \mathcal{Y}(\lambda)$, we get
 $$
 \mathfrak{h}_{ij}(\lambda)
 = 
-\left\{
+\left{
 (i', j') \in \mathcal{Y}(\lambda)
 \;\middle|\;
 \begin{array}{l}
 i = i' \text{ and } j' \ge j, \text{ or}\\[4pt]
 j = j' \text{ and } i' > i
 \end{array}
-\right\},$$
+\right},$$
 the \textit{(i,j)-hook} in $\lambda$. The following diagram shows the (1,2)-hook of (5,3,2,1): 
  $$
 \begin{array}{lllll}
