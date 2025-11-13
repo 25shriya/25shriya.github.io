@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Cores and Quotients of Integer Partitions - Part 1"
+title: "Cores and Quotients of Integer Partitions - Part 1"
 ---
 
 {%- include mathjax.html -%}
@@ -50,7 +50,7 @@ A $\beta$-set $X = \{h_1, \ldots h_t\}$ is a finite increasing subset of whole n
 
 <figure>
   <img src="{{ '/beta-set-partition.png' | relative_url }}" alt="Flowchart" width="70%">
-  <figcaption>Figure 1: Flowchart of the process.</figcaption>
+  <figcaption>Figure 1: Relationship between a partition and its $\beta$-set.</figcaption>
 </figure>
 
 Now, for a $\beta$-set $X$ for a partition $\lambda$, fix a positive integer \textit{p} and define $X_i^{(p)} = \{a \in \mathbb{N}_0 \, | \, ap + i \in X\}$ and $X_{(p)} = \bigcup_{i=0}^{p-1} \{ap+i \, | \, 0 \leq a \leq |X_i^{(p)}|\}$. The \textit{p-core} of $\lambda$ is $\lambda_{(p)} = P(X_{(p)})$ and \textit{p-quotient} is $\lambda^{(p)} = (\lambda_0, \ldots, \lambda_{p-1})$, where $\lambda_i = P(X_i^{(p)})$.
