@@ -112,8 +112,9 @@ The main result of this article states that given a $p$-core $\kappa$ and $p$-qu
 
 3. Consider 
 $$
-X' = \bigcup_{i=0}^{p-1} \{xp + i \, \mid \, x \in X_i\}$. We first observe that $X_i^{(p)'}
-$$ are $X_i$ for all $i$. Hence, the $p$-quotient of the partition $P(X')$ is $(\lambda_0, \ldots, \lambda_{p-1})$.
+X' = \bigcup_{i=0}^{p-1} \{xp + i \, \mid \, x \in X_i\}.
+$$
+We first observe that $X_i^{(p)'}$ are $X_i$ for all $i$. Hence, the $p$-quotient of the partition $P(X')$ is $(\lambda_0, \ldots, \lambda_{p-1})$.
 
 4. Moreover, 
    $$
