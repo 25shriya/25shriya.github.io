@@ -57,7 +57,7 @@ $$
 
 <br>
 
-The $\textit{(i,j)}$-hooklength of $\lambda$, is $h_{ij}(\lambda) = \mid \mathfrak{h}_{ij}(\lambda) \mid$. The $(1,2)$-hooklength of $(5,3,2,1)$ is $6$. A $\textit{p-hook}$ is a hook of a partition with hooklength divisible by the natural number $\textit{p}$.
+The $\textit{(i, j)-hooklength}$ of $\lambda$, is $h_{ij}(\lambda) = \mid \mathfrak{h}_{ij}(\lambda) \mid$. The $(1,2)$-hooklength of $(5,3,2,1)$ is $6$. A $\textit{p-hook}$ is a hook of a partition with hooklength divisible by the natural number $\textit{p}$.
 
 ------------
 
