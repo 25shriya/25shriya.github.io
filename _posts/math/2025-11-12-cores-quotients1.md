@@ -80,7 +80,7 @@ $$
  The partition associated with $\beta$-set $X$ is $P(X) = (h_1 - (t-1), h_2 - (t-2) \ldots h_t)$. $X$ is a $\beta$-set for partition $\lambda$ if $\lambda=P(X)$. Given a partition $\lambda$, we get a $\beta$-set $X_\lambda$ for $\lambda$ by getting the first column hooklengths of $\lambda$. Hence, all sets $X_\lambda^{+s}$, where $s \in \mathbb{N}_0$ is a $\beta$-set for $\lambda$. The following image shows the relation between a partition and its $\beta$-sets.
 
 <figure style="text-align: center;">
-  <img src="{{ '/beta-set-partition.png' | relative_url }}" alt="description" width="100%">
+  <img src="{{ '/images/beta-set-partition.png' | relative_url }}" alt="description" width="100%">
   <figcaption>Figure 1: Relationship between a partition and its $\beta$-set.</figcaption>
 </figure>
 
