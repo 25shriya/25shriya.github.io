@@ -108,7 +108,7 @@ The main result of this article states that given a $p$-core $\kappa$ and $p$-qu
 
 1. We can first choose a $\beta$-set $Y$ for $\kappa$ such that $p \,\, \mid \, \, \mid Y \mid$ and that for all $0 \leq i \leq p - 1$, $Y_{i}^{(p)}$ has at least $l(\lambda_i)$ elements. Such a choice is possible, as we can first construct a $\beta$-set for $\kappa$, and transpose until $p \,\, \mid \, \, \mid Y \mid$. Then, we can take $\max(l(\lambda_i))$ and transpose $Y$ until the second condition is satisfied.
 
-2. Then, choose $\beta$-sets $X_0, \ldots, X_{p-1}$ for $\lambda_0, \ldots, \lambda_{p-1}$ such that $\mid X_i \mid = \mid Y_i^{(p)} \mid$. Such a choice is possible, as, if $\mid X_i \mid < \mid Y_i^{(p)} \mid$, we transpose $ \mid X_i \mid$. The other way round is not possible due to the second condition on $Y_i^{(p)}$. The smallest size possible on $\mid X_i \mid$ is $l(\lambda_i)$ which is also the same bound for $\mid Y_i^{(p)}$.
+2. Then, choose $\beta$-sets $X_0, \ldots, X_{p-1}$ for $\lambda_0, \ldots, \lambda_{p-1}$ such that $\mid X_i \mid = \mid Y_i^{(p)} \mid$. Such a choice is possible, as, if $\mid X_i \mid < \mid Y_i^{(p)} \mid$, we transpose $ \mid X_i \mid$. The other way round is not possible due to the second condition on $Y_i^{(p)}$. The smallest size possible on $\mid X_i \mid$ is $l(\lambda_i)$ which is also the same bound for $\mid Y_i^{(p)} \mid$.
 
 3. Consider $X' = \bigcup_{i=0}^{p-1} \{xp + i \, \mid \, x \in X_i\}$. We first observe that $X_i^{(p)'}$ are $X_i$ for all $i$. Hence, the $p$-quotient of the partition $P(X')$ is $(\lambda_0, \ldots, \lambda_{p-1})$.
 
