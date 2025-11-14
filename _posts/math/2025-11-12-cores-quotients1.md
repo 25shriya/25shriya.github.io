@@ -43,7 +43,7 @@ j = j' \text{ and } i' > i
 \right\},
 $$
 
-the $\textit{(i,j)-hook}$ in $\lambda$. The following diagram shows the (1,2)-hook of (5,3,2,1): 
+the $\textit{(i, j)-hook}$ in $\lambda$. The following diagram shows the $(1,2)$-hook of $(5,3,2,1)$: 
 <div style="text-align: center;">
 $$
 \begin{array}{lllll}
