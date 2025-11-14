@@ -13,7 +13,10 @@ Each element of a partition is called its $\textit{part}$, and following the abo
 
 <br>
 
-For a partition $\lambda = (a_1, a_2, \ldots, a_m)$, define $\mathcal{Y}(\lambda) = \{(i,j) \in \mathbb{N} \times \mathbb{N} \mid 1 \leq i \leq m, \, 1 \leq j \leq a_i\}$, visualized by the $\textit{Young diagram}$ or $\textit{Ferrer's diagram}$, as shown for example partition $(5,3,2,1)$.
+For a partition $\lambda = (a_1, a_2, \ldots, a_m)$, define 
+$$
+\mathcal{Y}(\lambda) = \{(i,j) \in \mathbb{N} \times \mathbb{N} \mid 1 \leq i \leq m, \, 1 \leq j \leq a_i\},
+$$ visualized by the $\textit{Young diagram}$ or $\textit{Ferrer's diagram}$, as shown for example partition $(5,3,2,1)$.
 <div style="text-align: center;">
 $$
 \begin{aligned}
@@ -37,10 +40,10 @@ i = i' \text{ and } j' \ge j, \\[4pt]
 j = j' \text{ and } i' > i
 \end{array}
 \right.
-\right\}
+\right\},
 $$
 
-,the $\textit{(i,j)-hook}$ in $\lambda$. The following diagram shows the (1,2)-hook of (5,3,2,1): 
+the $\textit{(i,j)-hook}$ in $\lambda$. The following diagram shows the (1,2)-hook of (5,3,2,1): 
 <div style="text-align: center;">
 $$
 \begin{array}{lllll}
