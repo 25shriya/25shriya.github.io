@@ -129,4 +129,7 @@ We first observe that $X_i^{(p)'}$ are $X_i$ for all $i$. Hence, the $p$-quotien
 
 
 
+
+
+
 [^1]: The main source of text used as a reference in this exposition can be found [here.](https://web.math.ku.dk/~olsson/manus/comb_rep_all.pdf)
