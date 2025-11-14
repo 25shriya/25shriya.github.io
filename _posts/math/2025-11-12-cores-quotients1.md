@@ -110,7 +110,10 @@ The main result of this article states that given a $p$-core $\kappa$ and $p$-qu
 
 2. Then, choose $\beta$-sets $X_0, \ldots, X_{p-1}$ for $\lambda_0, \ldots, \lambda_{p-1}$ such that $\mid X_i \mid = \mid Y_i^{(p)} \mid$. Such a choice is possible, as, if $\mid X_i \mid < \mid Y_i^{(p)} \mid$, we transpose $ \mid X_i \mid$. The other way round is not possible due to the second condition on $Y_i^{(p)}$. The smallest size possible on $\mid X_i \mid$ is $l(\lambda_i)$ which is also the same bound for $\mid Y_i^{(p)} \mid$.
 
-3. Consider $X' = \bigcup_{i=0}^{p-1} \{xp + i \, \mid \, x \in X_i\}$. We first observe that $X_i^{(p)'}$ are $X_i$ for all $i$. Hence, the $p$-quotient of the partition $P(X')$ is $(\lambda_0, \ldots, \lambda_{p-1})$.
+3. Consider 
+$$
+X' = \bigcup_{i=0}^{p-1} \{xp + i \, \mid \, x \in X_i\}$. We first observe that $X_i^{(p)'}
+$$ are $X_i$ for all $i$. Hence, the $p$-quotient of the partition $P(X')$ is $(\lambda_0, \ldots, \lambda_{p-1})$.
 
 4. Moreover, 
    $$
