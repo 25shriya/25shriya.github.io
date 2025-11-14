@@ -43,7 +43,7 @@ j = j' \text{ and } i' > i
 \right\},
 $$
 
-the $\textit{(i, j)-hook}$ in $\lambda$. The following diagram shows the $(1,2)$-hook of $(5,3,2,1)$: 
+the $(i,j)\textit{-hook}$ in $\lambda$. The following diagram shows the $(1,2)$-hook of $(5,3,2,1)$: 
 <div style="text-align: center;">
 $$
 \begin{array}{lllll}
@@ -57,7 +57,7 @@ $$
 
 <br>
 
-The $\textit{(i, j)-hooklength}$ of $\lambda$, is $h_{ij}(\lambda) = \mid \mathfrak{h}_{ij}(\lambda) \mid$. The $(1,2)$-hooklength of $(5,3,2,1)$ is $6$. A $\textit{p-hook}$ is a hook of a partition with hooklength divisible by the natural number $\textit{p}$.
+The $(i,j)\textit{-hooklength}$ of $\lambda$, is $h_{ij}(\lambda) = \mid \mathfrak{h}_{ij}(\lambda) \mid$. The $(1,2)$-hooklength of $(5,3,2,1)$ is $6$. A $\textit{p-hook}$ is a hook of a partition with hooklength divisible by the natural number $\textit{p}$.
 
 ------------
 
