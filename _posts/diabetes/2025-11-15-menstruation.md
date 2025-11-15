@@ -23,6 +23,6 @@ The best ways for me to deal with these are a mixture of diet and insulin regula
 
 3. I take a break from all kinds of exercise for a few days. I just really think I deserve the rest until I'm recharged again. I spend my time dedicated to workout by watching Netflix instead :)
 
-4. If my sugars go severely low, I reduce my long-acting insulin as well. This is also done if I am exposed to any severe weather such as hot summers or chilly winters at that time, as my body takes up energy to stay regulated.
+4. If my sugars go severely low, I reduce my long-acting insulin as well. This is also done if I am exposed to any severe weather conditions, such as hot summers or chilly winters at that time, as my body takes up energy to stay regulated.
 
 5. Exercising and eating fibre rich foods, as much as possible during other times of the month helps me prepare for what comes ahead. 
