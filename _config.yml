@@ -4,7 +4,7 @@ tagline:
 description:         
 url:                 http://25shriya.github.io
 baseurl:             ''
-paginate:            5
+# paginate:            5
 permalink:           pretty
 
 
