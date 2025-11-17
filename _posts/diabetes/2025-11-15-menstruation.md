@@ -3,7 +3,7 @@ layout: post
 title:  "Diabetes and Menstruation"
 ---
 
-Menstruation can be a massive tribulation for what it is, and diabetes tends to make it worse. I usually face struggles with cramps almost every month, irrespective of the kind of lifestyle I follow. Nevertheless, keeping tab on certain things and taking help from loved ones has made periods so much more bearable.
+Menstruation can be a massive tribulation for what it is, and diabetes tends to make it worse. I struggle with cramps almost every month, irrespective of the kind of lifestyle I follow. Nevertheless, keeping tab on certain things and taking help from loved ones has made periods so much more bearable.
 
 ------------
 
