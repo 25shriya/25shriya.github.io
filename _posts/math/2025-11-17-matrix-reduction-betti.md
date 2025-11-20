@@ -54,14 +54,69 @@ The $p^{th}$ boundary matrix is defined (modulo $2$) for a simplicial complex $K
 
 4. $a_i^{j} = 0$ otherwise.
 
-A series of row and column operations can be defined on this matrix which reduces it to the Smith normal form. We define those operations as follows: 
+A series of row and column operations can be defined on this matrix which reduces it to the Smith normal form. We know that $n_p = b_{p-1} + z_p$. The former is the leftmost $b_{p-1}$ nonzero columns of the reduced matrix which generate the group 
+$$
+\mathsf{B}_{p-1}
+$$ and the latter is the last $z_p$ zero columns of the reduce matrix, which generate 
+$$
+\mathsf{Z}_p.
+$$ Once we reduce each boundary matrix to its normal form, we get their ranks. Then, we must calculate $\beta_p = z_p - b_p = n_p - b_{p-1} - b_p$. Since the rank of $\partial_{p}$ is $b_{p-1}$ and rank of $\partial_{p+1}$ is $b_p$, we obtain $\beta_p = n_p - \text{rank}({\partial_p}) - \text{rank}(\partial_{p+1})$.
 
+Here is the SageMath code written by me to get the required Betti numbers:
 
-1. If $a_i^j = a_j^i = 1$ and $a_k = 1$ for all $k \neq i,j$ with all other entries $0$, then columns (and respectively, rows) $i$ and $j$ can be interchanged.
+```python
+from sage.all import * 
 
-2. If $a_i^j = 1$ and $a_k = 1$ for all $k \neq i,j$ with all other entries $0$, then column (and respectively, row) $i$ can be added to column (and respectively, row) $j$.
+# Initialization
+N = eval(input("Enter simplicial complex: ")) 
+simplicial_complex = SimplicialComplex(N)
+faces = simplicial_complex.faces()
+ranks = []
+betti_numbers = []
+nps = []
 
-We know that $n_p = b_{p-1} + z_p$. The former is the leftmost $b_{p-1}$ columns which generate the group $\mathsf{B}_{p-1}$ and the next $z_p$ columns generate $\mathsf{Z}_p$. Reducing $\partial_p$ to its normal form gives the appropriate ranks, from which we can retrieve $\beta_p = z_p - b_p$.
+for p in range(simplicial_complex.dimension()):
+    if p == 0:  # Exceptional Case of p = 0
+        rows = 0
+        cols = len(faces[0])
+        req_list = []
+    else:  # Initializing matrix
+        rows = len(faces[p-1])
+        cols = len(faces[p])
+        temp = [0]*cols
+        req_list = [temp[:] for i in range(rows)]
+    p_1_simplices = sorted(list(faces[p-1]))
+    p_simplices = sorted(list(faces[p]))
+    for i in range(rows):  
+        # Defining boundary matrix as per conditions given
+        for j in range(cols):
+            if p_1_simplices[i] in p_simplices[j].faces():
+                req_list[i][j] = 1
+            else:
+                req_list[i][j] = 0
+    # Initializing boundary matrix along with required field
+    p_boundary_matrix = matrix(ZZ.quotient(2), req_list)
+    reduced_p_boundary_matrix = p_boundary_matrix.smith_form()
+    ranks.append(reduced_p_boundary_matrix[0].rank())
+    nps.append(cols)
+
+for p in range(simplicial_complex.dimension()):
+    if p+1 < len(ranks):  # applying Betti number formula
+        betti_numbers.append(nps[p] - ranks[p] - ranks[p+1])
+    else:
+        betti_numbers.append(0)
+
+for p in range(simplicial_complex.dimension()):
+    if p == 1:
+        print("First Betti Number: ", betti_numbers[p])
+    elif p == 2:
+        print("Second Betti Number: ", betti_numbers[p])
+    elif p == 3:
+        print("Third Betti Number: ", betti_numbers[p])
+    else:
+        print(p, "th Betti Number: ", betti_numbers[p])
+print("Betti numbers higher than this are 0")
+```
 
 I found an [interesting repository](https://github.com/kc-howe/Betti-Numbers) coded in NumPy that performs the above computation. The primary source of reference for this article was [Computational Topology by Edelsbrunner](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/edelcomp.pdf). 
 
