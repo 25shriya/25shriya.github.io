@@ -27,7 +27,7 @@ Teaching Experience:
 Workshops:
 
 <ul>
-    <li><a href="https://www.cmi.ac.in/~pdeshpande/tda_omws_2026.html" target="_blank">TDA School 2026:</a> I had the opportunity to attend a 10 day workshop on topological data analysis and its applications at Chennai Mathematical Institute, Chennai, India. I worked on a hands-on groupp roject in understanding crystalline compounds by developing the pre-existing topological model through the introduction of a new simplicial complex to model the data.</li>
+    <li><a href="https://www.cmi.ac.in/~pdeshpande/tda_omws_2026.html" target="_blank">TDA School 2026:</a> I had the opportunity to attend a 10 day workshop on topological data analysis and its applications at Chennai Mathematical Institute, Chennai, India. I worked on a hands-on group roject in understanding crystalline compounds by developing the pre-existing topological model through the introduction of a new simplicial complex to model the data.</li>
     <li><a href="https://wiki.sagemath.org/days126" target="_blank">Sage Days 126:</a> I was a member of the organizing committee of Sage Days 126 and involved in introducing SageMath and development to mathematicians of various levels.</li>
 </ul>
 
